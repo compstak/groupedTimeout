@@ -15,7 +15,7 @@ var timeoutId = timeouts.add(function () {
 // use timeouts.always() if you want to be guaranteed that the function will run.
 var timeoutId = timeouts.always(function () {
 	console.log('I will run after one second or immediately when the timeout is cleared.');
-})
+}, 1000);
 
 if (weShouldntContinue) {
 	// this will cancel the first callback
