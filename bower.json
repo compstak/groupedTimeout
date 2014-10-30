@@ -1,0 +1,27 @@
+{
+  "name": "groupedTimeout",
+  "main": "groupedTimeout.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/compstak/groupedTimeout",
+  "authors": [
+    "Stu Kabakoff <stuart@compstak.com>"
+  ],
+  "description": "Group timeouts so they can all be cleared at once.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "timeout",
+    "animations"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
